@@ -22,8 +22,8 @@ To set up the website locally on your machine, follow these steps:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/jthurm11/jthurm11.github.io.git
+    cd jthurm11.github.io
     ```
 
 2. **Install Jekyll and Bundler**:
@@ -84,7 +84,7 @@ Contributions are welcome! If you have suggestions or improvements, please creat
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU GPL v3 License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
