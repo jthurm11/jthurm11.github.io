@@ -3,7 +3,7 @@ repository: jthurm11/jthurm11.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
-version: 1
+version: 2
 
 # Personal info
 name: Jacob (Jake) Thurman
@@ -92,13 +92,13 @@ content:
 
             In November 2022, I was promoted to Deputy Program Manager Engineering / Chief Engineer. In this role, I continued to lead my team of software engineers and logistics staff for in-service and new DoD-related projects. I am responsible for architecting and building the platform infrastructure, managing project scheduling, tasking, and risk management processes, and serving as the technical point of contact in internal and external meetings. Additionally, I have mentored and trained team members, fostering a culture of continuous learning and alignment with project objectives and timelines.
 
-      # - layout: left
-      #   title: Rite-Solutions 
-      #   link: rite-solutions.com
-      #   sub_title: Hardware & Test Engineer for Submarine Trainer Systems
-      #   caption: November 2015 - December 2019
-      #   description: |
-      #       Serving as the Subject Matter Expert (SME) for Modernization Systems trainer operation, I maintained and operated tactical combat simulators and infrastructure, designed Linux-based systems, and managed network switches. I self-taught various skills including Linux administration and Bash scripting, leading to the development of automated server installations and internal management utilities. My contributions were acknowledged with the "Heavy Hitter" award.
+      - layout: left
+        title: Rite-Solutions 
+        link: rite-solutions.com
+        sub_title: Hardware & Test Engineer for Submarine Trainer Systems
+        caption: November 2015 - December 2019
+        description: |
+            Serving as the Subject Matter Expert (SME) for Modernization Systems trainer operation, I maintained and operated tactical combat simulators and infrastructure, designed Linux-based systems, and managed network switches. I self-taught various skills including Linux administration and Bash scripting, leading to the development of automated server installations and internal management utilities. My contributions were acknowledged with the "Heavy Hitter" award.
 
   - title: Military Experience
     layout: list 
@@ -135,7 +135,7 @@ content:
     layout: text
     content: | 
       I'm always eager to tackle new challenges, both professionally and personally. Some of my other interests and hobbies are:
-      - Administering a home server lab to keep my skills sharp and to learn new technologies
+      - Administering a home server lab, keeping my skills sharp and learning new things
       - 3D printing
       - Travelling with my family
       - Creating new Dad Jokes (I store them in a *Dad-abase*)
