@@ -50,7 +50,7 @@ linkedin_username: jthurm11
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.jpg
+about_profile_image: images/ice_cream_1.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Jake and I am a Chief Engineer. I am an experienced team and IT leader with a strong background in Linux administration, virtualization, and (most recently) program management. With 9 years of hands-on experience, plus five years of service in the Navy, I excel in designing and managing complex server environments, configuring networking appliances, and leading technical teams on high-stakes projects. 
   
