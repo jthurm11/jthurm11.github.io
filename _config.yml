@@ -9,34 +9,37 @@ version: 2
 name: Jacob (Jake) Thurman
 title: Chief Engineer
 email: jthurm11@gmail.com
-# linkedin: www.linkedin.com/in/jthurm11
-# website: www.github.com/sproogen/resume-theme
+# email_title: Email (Email title override)
+phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-# twitter_username: facespics
+# twitter_username: jekyllrb
 github_username:  jthurm11
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-# instagram_username: jameswgrant
+# instagram_username: jekyll
 linkedin_username: jthurm11
 # xing_username: jekyll
 # pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
+# youtube_username: jekyll
 # orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
+additional_links:
+- title: Link name
+  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url: Link url (eg. https://google.com)
 # - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
@@ -46,7 +49,7 @@ linkedin_username: jthurm11
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: About Me
+# about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Jake and I am a Chief Engineer. I am an experienced team and IT leader with a strong background in Linux administration, virtualization, and (most recently) program management. With 9 years of hands-on experience, plus five years of service in the Navy, I excel in designing and managing complex server environments, configuring networking appliances, and leading technical teams on high-stakes projects. 
