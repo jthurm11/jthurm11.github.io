@@ -9,7 +9,7 @@ version: 1
 name: Jacob (Jake) Thurman
 title: Chief Engineer
 email: jthurm11@gmail.com
-linkedin: www.linkedin.com/in/jthurm11
+# linkedin: www.linkedin.com/in/jthurm11
 # website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
@@ -75,18 +75,15 @@ content:
   #       description: | # this will include new lines to allow paragraphs
   #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
       - layout: left
         title: General Dynamics Mission Systems
         link: gdmissionsystems.com
-        # link_text: boringcompany.com
         sub_title: Deputy Program Manager Engineering / Chief Engineer
         caption: December 2019 - Present
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
+        description: |
             My tenure at General Dynamics Mission Systems showcases continuous professional growth driven by exceptional performance and recognition from my peers and superiors.
 
             Starting as a Software Integration Lead in December 2019, I demonstrated technical prowess by developing, installing, and managing clusters of Linux servers and networking equipment for a custom-built virtualization platform. My redesign of network routing for the system and of scripts managing virtual machine lifecycles significantly improved performance and collaboration. My contributions during challenging periods, including the COVID-19 pandemic, earned me the prestigious President’s Award for exceptional performance and dedication.
@@ -98,25 +95,19 @@ content:
       - layout: left
         title: Rite-Solutions 
         link: rite-solutions.com
-        # link_text: boringcompany.com
         sub_title: Hardware & Test Engineer for Submarine Trainer Systems
         caption: November 2015 - December 2019
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: |
             Serving as the Subject Matter Expert (SME) for Modernization Systems trainer operation, I maintained and operated tactical combat simulators and infrastructure, designed Linux-based systems, and managed network switches. I self-taught various skills including Linux administration and Bash scripting, leading to the development of automated server installations and internal management utilities. My contributions were acknowledged with the "Heavy Hitter" award.
 
   - title: Military Experience
-    layout: list # Type of content section (list/text)
+    layout: list 
     content:
       - layout: left
         title: US Navy 
         link: navy.com
-        # link_text: boringcompany.com
         sub_title: Sonar Technician Submarines
         caption: January 2009 - January 2014
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: |
             After a year of training in advanced electronics and networking, basic submarine training, and Sonar theory, I was stationed onboard the *USS Annapolis*. I quickly became accustomed to submarine life and soon earned my warfare designation, a/k/a **Dolphins**.
 
@@ -126,8 +117,8 @@ content:
 
             My additional roles included qualifying as a QA work center supervisor, conducted SCUBA diving operations, served as the Ship's Calibration Program Coordinator, developed and led departmental trainng, and continuing to uphold standards of performance excellence and mission readiness.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: Post University
@@ -135,14 +126,14 @@ content:
         sub_title: BSc Computer Information Systems
         quote: >
           Established in 1890 as Post College, Post is a private university in Waterbury, Connecticut. 
-        description: | # this will include new lines to allow paragraphs
+        description: | 
           With most of my general education completed through prior military education and a year studying at the University of Connecticut, I focused on core degree requirements at Post. By taking a mix of on-campus and online courses, plus attending summer semesters, I was able to complete my degree within 1.5 years. 
           
           Throughout my education here, I maintained a full-time job, commuting to campus in the afternoons after work.
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: | 
       I'm always eager to tackle new challenges, both professionally and personally. Some of my other interests and hobbies are:
       - Administering a home server lab to keep my skills sharp and to learn new technologies
       - 3D printing
