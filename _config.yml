@@ -1,39 +1,40 @@
 # Site
-repository: sproogen/resume-theme
+repository: jthurm11/jthurm11.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
-version: 2
+version: 1
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Jacob (Jake) Thurman
+title: Chief Engineer
+email: jthurm11@gmail.com
+linkedin: www.linkedin.com/in/jthurm11
+# website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  jthurm11
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+linkedin_username: jthurm11
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -45,72 +46,108 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name is Jake and I am a Chief Engineer. I am an experienced team and IT leader with a strong background in Linux administration, virtualization, and (most recently) program management. With 9 years of hands-on experience, plus five years of service in the Navy, I excel in designing and managing complex server environments, configuring networking appliances, and leading technical teams on high-stakes projects. 
+  
+  I am passionate about continuous learning and innovation. I thrive in dynamic environments where I can leverage my technical expertise and leadership skills to drive success.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>Bash</mark> and <mark>Architecting Datacenters</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: Super awesome project
+  #       link: github.com/sproogen
+  #       # link_text: Project Website
+  #       additional_links:
+  #         - title:  sproogen/modern-resume-theme
+  #           icon: fab fa-github
+  #           url: github.com/sproogen/modern-resume-theme
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #       description: | # this will include new lines to allow paragraphs
+  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: General Dynamics Mission Systems
+        link: gdmissionsystems.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        sub_title: Deputy Program Manager Engineering / Chief Engineer
+        caption: December 2019 - Present
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            My tenure at General Dynamics Mission Systems showcases continuous professional growth driven by exceptional performance and recognition from my peers and superiors.
+
+            Starting as a Software Integration Lead in December 2019, I demonstrated technical prowess by developing, installing, and managing clusters of Linux servers and networking equipment for a custom-built virtualization platform. My redesign of network routing for the system and of scripts managing virtual machine lifecycles significantly improved performance and collaboration. My contributions during challenging periods, including the COVID-19 pandemic, earned me the prestigious President’s Award for exceptional performance and dedication.
+
+            In April 2021, I was promoted to Product Manager / Systems Technical Lead, where I led tasks related to software development, hardware testing, integration, documentation, and software demonstrations. My leadership extended to traveling to customer sites, overseeing system installations and surveys, and coordinating with industry partners to integrate applications within delivery timelines. My innovative creation of an emergency system power-off utility using Bash, along with developing procedures, technical drawings, and applications enhancing platform capability, reinforced my reputation as a reliable and innovative leader.
+
+            In November 2022, I was promoted to Deputy Program Manager Engineering / Chief Engineer. In this role, I continued to lead my team of software engineers and logistics staff for in-service and new DoD-related projects. I am responsible for architecting and building the platform infrastructure, managing project scheduling, tasking, and risk management processes, and serving as the technical point of contact in internal and external meetings. Additionally, I have mentored and trained team members, fostering a culture of continuous learning and alignment with project objectives and timelines.
+
+      - layout: left
+        title: Rite-Solutions 
+        link: rite-solutions.com
+        # link_text: boringcompany.com
+        sub_title: Hardware & Test Engineer for Submarine Trainer Systems
+        caption: November 2015 - December 2019
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: |
+            Serving as the Subject Matter Expert (SME) for Modernization Systems trainer operation, I maintained and operated tactical combat simulators and infrastructure, designed Linux-based systems, and managed network switches. I self-taught various skills including Linux administration and Bash scripting, leading to the development of automated server installations and internal management utilities. My contributions were acknowledged with the "Heavy Hitter" award.
+
+  - title: Military Experience
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: US Navy 
+        link: navy.com
+        # link_text: boringcompany.com
+        sub_title: Sonar Technician Submarines
+        caption: January 2009 - January 2014
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: |
+            After a year of training in advanced electronics and networking, basic submarine training, and Sonar theory, I was stationed onboard the *USS Annapolis*. I quickly became accustomed to submarine life and soon earned my warfare designation, a/k/a **Dolphins**.
+
+            Over the summer of 2011, I attended the Navy's SCUBA diving school in Panama City, Florida. There, I was certified as a SCUBA diver and Rescue Swimmer, and was awarded the Diver warfare designation. 
+
+            While on an overseas deployment in 2012, I completed my qualifications for Sonar Supervisor. A prestigious qualification, and rare for one to complete during their first tour of duty, the Sonar Sup is overall responsible for the safety of the submarine while at-sea. As a Sonar Supervisor, I managed a team of 20 sailors, ensuring daily tasks and safety operations were executed efficiently. 
+
+            My additional roles included qualifying as a QA work center supervisor, conducted SCUBA diving operations, served as the Ship's Calibration Program Coordinator, developed and led departmental trainng, and continuing to uphold standards of performance excellence and mission readiness.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Post University
+        caption: 2017 - 2018
+        sub_title: BSc Computer Information Systems
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          Established in 1890 as Post College, Post is a private university in Waterbury, Connecticut. 
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          With most of my general education completed through prior military education and a year studying at the University of Connecticut, I focused on core degree requirements at Post. By taking a mix of on-campus and online courses, plus attending summer semesters, I was able to complete my degree within 1.5 years. 
+          
+          Throughout my education here, I maintained a full-time job, commuting to campus in the afternoons after work.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      I'm always eager to tackle new challenges, both professionally and personally. Some of my other interests and hobbies are:
+      - Administering a home server lab to keep my skills sharp and to learn new technologies
+      - 3D printing
+      - Travelling with my family
+      - Creating new Dad Jokes (I store them in a *Dad-abase*)
 
 # Footer
 footer_show_references: true
