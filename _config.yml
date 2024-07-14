@@ -37,7 +37,8 @@ linkedin_username: jthurm11
 additional_links:
 - title: Printable Resume
   # icon: https://icon-library.com/images/cv-icon/cv-icon-12.jpg
-  icon: images/cv-icon-12.jpg
+  # icon: images/cv-icon-12.jpg
+  icon: fa-solid fa-file-lines
   url: <a href="docs/JT Resume.pdf" class></a>
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
