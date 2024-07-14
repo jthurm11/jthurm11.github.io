@@ -38,7 +38,8 @@ additional_links:
 - title: Printable Resume
   # icon: https://icon-library.com/images/cv-icon/cv-icon-12.jpg
   # icon: images/cv-icon-12.jpg
-  icon: fa-brands fa-firstdraft
+  # icon: fa-brands fa-firstdraft
+  icon: fa fa-file-pdf-o
   url: https://jthurm11.github.io/docs/JT%20Resume.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
