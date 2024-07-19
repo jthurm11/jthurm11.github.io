@@ -38,7 +38,7 @@ additional_links:
 - title: Printable Resume
   icon: fa fa-file-pdf-o
 #  url: https://jthurm11.github.io/docs/JT%20Resume.pdf
-  url: (/docs/JT Resume.pdf)
+  url: [Resume PDF](/docs/JT Resume.pdf)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -83,6 +83,7 @@ content:
     layout: list
     content:
       - layout: left
+        border: weak
         title: General Dynamics Mission Systems
         link: gdmissionsystems.com
         sub_title: Deputy Program Manager Engineering / Chief Engineer
@@ -92,23 +93,26 @@ content:
         description: |
           In November 2022, I was promoted to Deputy Program Manager of Engineering, with the additional role of Chief Engineer. Now fully leading the program, I oversee platform design, manage project schedules, tasks, and risks, and serve as the technical point of contact. I continue to train team members, fostering continuous learning and project alignment.
           
-      - layout: right
+      - layout: left
+        border: weak
         title: General Dynamics Mission Systems
-        link: gdmissionsystems.com
-        sub_title: Deputy Program Manager Engineering / Chief Engineer
+        #link: gdmissionsystems.com
+        sub_title: Product Manager
         caption: April 2021 - November 2022
         description: |
-          In April 2021, I became Product Manager / Systems Technical Lead for the program, handling software development, hardware testing, integration, documentation, and demonstrations. I managed system installations, customer site surveys, and partner coordination. By creating an emergency power-off utility in Bash and enhancing platform capabilities, I solidified my reputation as a reliable and innovative leader.
+          In April 2021, I became Product Manager and Systems Technical Lead for the program, handling software development, hardware testing, integration, documentation, and demonstrations. I managed system installations, customer site surveys, and partner coordination. By creating an emergency power-off utility in Bash and enhancing platform capabilities, I solidified my reputation as a reliable and innovative leader.
           
       - layout: left
+        border: weak
         title: General Dynamics Mission Systems
-        link: gdmissionsystems.com
-        sub_title: Deputy Program Manager Engineering / Chief Engineer
+        #link: gdmissionsystems.com
+        sub_title: Software Integration Lead
         caption: December 2019 - April 2021
         description: |
           Beginning as a Software Integration Lead in December 2019, I developed, installed, and managed clusters of Linux servers and networking equipment for a custom-built virtualization platform. By redesigning network routing and lifecycle management scripts, I significantly enhanced system performance and collaboration. My dedication during challenging times, including the COVID-19 pandemic, earned me the President’s Award for exceptional performance.
           
-      - layout: right
+      - layout: left
+        border: none  # As this is the last entry in this section, you do not want a border below it. 
         title: Rite-Solutions 
         link: rite-solutions.com
         sub_title: Hardware & Test Engineer for Submarine Trainer Systems
