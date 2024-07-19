@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Jacob (Jake) Thurman
+name: Jacob Thurman
 title: Chief Engineer
 email: jthurm11@gmail.com
 # email_title: Email (Email title override)
@@ -36,11 +36,9 @@ linkedin_username: jthurm11
 # Additional icon links
 additional_links:
 - title: Printable Resume
-  # icon: https://icon-library.com/images/cv-icon/cv-icon-12.jpg
-  # icon: images/cv-icon-12.jpg
-  # icon: fa-brands fa-firstdraft
   icon: fa fa-file-pdf-o
-  url: https://jthurm11.github.io/docs/JT%20Resume.pdf
+#  url: https://jthurm11.github.io/docs/JT%20Resume.pdf
+  url: ("/docs/JT Resume.pdf")
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -88,17 +86,29 @@ content:
         title: General Dynamics Mission Systems
         link: gdmissionsystems.com
         sub_title: Deputy Program Manager Engineering / Chief Engineer
-        caption: December 2019 - Present
+        caption: November 2022 - Present
+        quote: >
+          My tenure at General Dynamics Mission Systems showcases continuous professional growth driven by exceptional performance and recognition from my peers and superiors.
         description: |
-            My tenure at General Dynamics Mission Systems showcases continuous professional growth driven by exceptional performance and recognition from my peers and superiors.
-
-            Starting as a Software Integration Lead in December 2019, I demonstrated technical prowess by developing, installing, and managing clusters of Linux servers and networking equipment for a custom-built virtualization platform. My redesign of network routing for the system and of scripts managing virtual machine lifecycles significantly improved performance and collaboration. My contributions during challenging periods, including the COVID-19 pandemic, earned me the prestigious President’s Award for exceptional performance and dedication.
-
-            In April 2021, I was promoted to Product Manager / Systems Technical Lead, where I led tasks related to software development, hardware testing, integration, documentation, and software demonstrations. My leadership extended to traveling to customer sites, overseeing system installations and surveys, and coordinating with industry partners to integrate applications within delivery timelines. My innovative creation of an emergency system power-off utility using Bash, along with developing procedures, technical drawings, and applications enhancing platform capability, reinforced my reputation as a reliable and innovative leader.
-
-            In November 2022, I was promoted to Deputy Program Manager Engineering / Chief Engineer. In this role, I continued to lead my team of software engineers and logistics staff for in-service and new DoD-related projects. I am responsible for architecting and building the platform infrastructure, managing project scheduling, tasking, and risk management processes, and serving as the technical point of contact in internal and external meetings. Additionally, I have mentored and trained team members, fostering a culture of continuous learning and alignment with project objectives and timelines.
-
+          In November 2022, I was promoted to Deputy Program Manager of Engineering, with the additional role of Chief Engineer. Now fully leading the program, I oversee platform design, manage project schedules, tasks, and risks, and serve as the technical point of contact. I continue to train team members, fostering continuous learning and project alignment.
+          
+        - layout: right
+        title: General Dynamics Mission Systems
+        link: gdmissionsystems.com
+        sub_title: Deputy Program Manager Engineering / Chief Engineer
+        caption: April 2021 - November 2022
+        description: |
+          In April 2021, I became Product Manager / Systems Technical Lead for the program, handling software development, hardware testing, integration, documentation, and demonstrations. I managed system installations, customer site surveys, and partner coordination. By creating an emergency power-off utility in Bash and enhancing platform capabilities, I solidified my reputation as a reliable and innovative leader.
+          
       - layout: left
+        title: General Dynamics Mission Systems
+        link: gdmissionsystems.com
+        sub_title: Deputy Program Manager Engineering / Chief Engineer
+        caption: December 2019 - April 2021
+        description: |
+          Beginning as a Software Integration Lead in December 2019, I developed, installed, and managed clusters of Linux servers and networking equipment for a custom-built virtualization platform. By redesigning network routing and lifecycle management scripts, I significantly enhanced system performance and collaboration. My dedication during challenging times, including the COVID-19 pandemic, earned me the President’s Award for exceptional performance.
+          
+      - layout: right
         title: Rite-Solutions 
         link: rite-solutions.com
         sub_title: Hardware & Test Engineer for Submarine Trainer Systems
@@ -133,10 +143,8 @@ content:
         quote: >
           Established in 1890 as Post College, Post is a private university in Waterbury, Connecticut. 
         description: | 
-          With most of my general education completed through prior military education and a year studying at the University of Connecticut, I focused on core degree requirements at Post. By taking a mix of on-campus and online courses, plus attending summer semesters, I was able to complete my degree within 1.5 years. 
+          With most of my general education completed through military education and a year studying at the University of Connecticut, I focused on core degree requirements at Post. By taking a mix of on-campus and online courses, plus attending summer semesters, I was able to complete my degree within 1.5 years, while also balancing a full time job. 
           
-          Throughout my education here, I maintained a full-time job, commuting to campus in the afternoons after work.
-
   - title: A Little More About Me
     layout: text
     content: | 
@@ -147,7 +155,7 @@ content:
       - Creating new Dad Jokes (I store them in a *Dad-abase*)
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
