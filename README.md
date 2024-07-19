@@ -1,6 +1,6 @@
-# Resume starter page.
+# Resume website build with Jekyll.
 
-This repository contains the code for my personal website. The website includes information about me, my projects, and my resume,.
+This repository contains the code for my personal website. The website includes information about me, my projects, and my resume.
 
 You can view the live website at [https://jthurm11.github.io/](https://jthurm11.github.io/).
 
