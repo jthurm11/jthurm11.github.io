@@ -92,7 +92,7 @@ content:
         description: |
           In November 2022, I was promoted to Deputy Program Manager of Engineering, with the additional role of Chief Engineer. Now fully leading the program, I oversee platform design, manage project schedules, tasks, and risks, and serve as the technical point of contact. I continue to train team members, fostering continuous learning and project alignment.
           
-        - layout: right
+      - layout: right
         title: General Dynamics Mission Systems
         link: gdmissionsystems.com
         sub_title: Deputy Program Manager Engineering / Chief Engineer
