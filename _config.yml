@@ -1,55 +1,172 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Site
+repository: jthurm11/jthurm11.github.io
+favicon: images/favicon.ico
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# Content configuration version
+version: 2
+
+# Personal info
+name: Jacob Thurman
+title: Chief Engineer
+email: jthurm11@gmail.com
+# email_title: Email (Email title override)
+# phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+# website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
 # twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  jthurm11
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: jthurm11
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+additional_links:
+- title: Printable Resume
+  icon: fa fa-file-pdf-o
+  url: https://jthurm11.github.io/docs/JT-Resume.pdf
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/ice_cream_1.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Jake and I am a Chief Engineer. I am an experienced team and IT leader with a strong background in Linux administration, virtualization, and (most recently) program management. With 9 years of hands-on experience, plus five years of service in the Navy, I excel in designing and managing complex server environments, configuring networking appliances, and leading technical teams on high-stakes projects. 
+  
+  I am passionate about continuous learning and innovation. I thrive in dynamic environments where I can leverage my technical expertise and leadership skills to drive success.
+
+  I am most skilled in: <mark>Bash</mark> and <mark>Architecting Datacenters</mark>
+
+content:
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: Super awesome project
+  #       link: github.com/sproogen
+  #       # link_text: Project Website
+  #       additional_links:
+  #         - title:  sproogen/modern-resume-theme
+  #           icon: fab fa-github
+  #           url: github.com/sproogen/modern-resume-theme
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #       description: | # this will include new lines to allow paragraphs
+  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        #border: weak
+        title: General Dynamics Mission Systems
+        link: gdmissionsystems.com
+        sub_title: Deputy Program Manager Engineering / Chief Engineer
+        caption: November 2022 - Present
+        quote: >
+          My tenure at General Dynamics Mission Systems showcases continuous professional growth driven by exceptional performance and recognition from my peers and superiors.
+        description: |
+          In November 2022, I was promoted to Deputy Program Manager of Engineering, with the additional role of Chief Engineer. Now fully leading the program, I oversee platform design, manage project schedules, tasks, and risks, and serve as the technical point of contact. I continue to train team members, fostering continuous learning and project alignment.
+          
+      - layout: left
+        #border: weak
+        #title: General Dynamics Mission Systems
+        #link: gdmissionsystems.com
+        sub_title: Product Manager
+        caption: April 2021 - November 2022
+        description: |
+          In April 2021, I became Product Manager and Systems Technical Lead for the program, handling software development, hardware testing, integration, documentation, and demonstrations. I managed system installations, customer site surveys, and partner coordination. By creating an emergency power-off utility in Bash and enhancing platform capabilities, I solidified my reputation as a reliable and innovative leader.
+          
+      - layout: left
+        border: weak
+        #title: General Dynamics Mission Systems
+        #link: gdmissionsystems.com
+        sub_title: Software Integration Lead
+        caption: December 2019 - April 2021
+        description: |
+          Beginning as a Software Integration Lead in December 2019, I developed, installed, and managed clusters of Linux servers and networking equipment for a custom-built virtualization platform. By redesigning network routing and lifecycle management scripts, I significantly enhanced system performance and collaboration. My dedication during challenging times, including the COVID-19 pandemic, earned me the President’s Award for exceptional performance.
+          
+      - layout: left
+        border: none  # As this is the last entry in this section, you do not want a border below it. 
+        title: Rite-Solutions 
+        link: rite-solutions.com
+        sub_title: Hardware & Test Engineer for Submarine Trainer Systems
+        caption: November 2015 - December 2019
+        description: |
+            Serving as the Subject Matter Expert (SME) for Modernization Systems trainer operation, I maintained and operated tactical combat simulators and infrastructure, designed Linux-based systems, and managed network switches. I self-taught various skills including Linux administration and Bash scripting, leading to the development of automated server installations and internal management utilities. My contributions were acknowledged with the "Heavy Hitter" award.
+
+  - title: Military Experience
+    layout: list 
+    content:
+      - layout: left
+        title: US Navy 
+        link: navy.com
+        sub_title: Sonar Technician Submarines
+        caption: January 2009 - January 2014
+        description: |
+            After a year of training in advanced electronics and networking, basic submarine training, and Sonar theory, I was stationed onboard the *USS Annapolis*. I quickly became accustomed to submarine life and soon earned my warfare designation, a/k/a **Dolphins**.
+
+            Over the summer of 2011, I attended the Navy's SCUBA diving school in Panama City, Florida. There, I was certified as a SCUBA diver and Rescue Swimmer, and was awarded the Diver warfare designation. 
+
+            While on an overseas deployment in 2012, I completed my qualifications for Sonar Supervisor. A prestigious qualification, and rare for one to complete during their first tour of duty, the Sonar Sup is overall responsible for the safety of the submarine while at-sea. As a Sonar Supervisor, I managed a team of 20 sailors, ensuring daily tasks and safety operations were executed efficiently. 
+
+            My additional roles included qualifying as a QA work center supervisor, conducted SCUBA diving operations, served as the Ship's Calibration Program Coordinator, developed and led departmental trainng, and continuing to uphold standards of performance excellence and mission readiness.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Post University
+        caption: 2017 - 2018
+        sub_title: BSc Computer Information Systems
+        quote: >
+          Established in 1890 as Post College, Post is a private university in Waterbury, Connecticut. 
+        description: | 
+          With most of my general education completed through military education and a year studying at the University of Connecticut, I focused on core degree requirements at Post. By taking a mix of on-campus and online courses, plus attending summer semesters, I was able to complete my degree within 1.5 years, while also balancing a full time job. 
+          
+  - title: A Little More About Me
+    layout: text
+    content: | 
+      I'm always eager to tackle new challenges, both professionally and personally. Some of my other interests and hobbies are:
+      - Administering a home server lab, keeping my skills sharp and learning new things
+      - 3D printing
+      - Travelling with my family
+      - Creating new Dad Jokes (I store them in a *Dad-abase*)
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+remote_theme: sproogen/resume-theme
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
