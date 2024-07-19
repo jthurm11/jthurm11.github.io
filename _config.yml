@@ -37,7 +37,8 @@ linkedin_username: jthurm11
 additional_links:
 - title: Printable Resume
   icon: fa fa-file-pdf-o
-  url: https://jthurm11.github.io/docs/JT%20Resume.pdf
+ # url: https://jthurm11.github.io/docs/JT%20Resume.pdf
+  url: ({% link docs/JT Resume.pdf %}]
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -93,8 +94,8 @@ content:
           In November 2022, I was promoted to Deputy Program Manager of Engineering, with the additional role of Chief Engineer. Now fully leading the program, I oversee platform design, manage project schedules, tasks, and risks, and serve as the technical point of contact. I continue to train team members, fostering continuous learning and project alignment.
           
       - layout: left
-        border: weak
-        title: General Dynamics Mission Systems
+        #border: weak
+        #title: General Dynamics Mission Systems
         #link: gdmissionsystems.com
         sub_title: Product Manager
         caption: April 2021 - November 2022
